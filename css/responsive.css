@@ -1,0 +1,41 @@
+/* ! responsive width 768px in giu */
+@media screen and (max-width: 768px) {
+    /* change container size */
+    .container{
+        max-width: 100%;
+    }
+}
+
+/* ! responsive 576px in giu */
+@media screen and (max-width: 576px) {
+    /* layout change  */
+    .row{
+        flex-wrap: wrap;
+        gap: 80px;
+    }
+
+    .row .col{
+        width: 100%;
+    }
+    /* change img */
+    .col .card img{
+        height: 300px;
+    }
+
+    /* change font size */
+    h1{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 50px;
+    }
+    h3{
+        font-size: 40px;
+    }
+    p{
+        font-size: 25px;
+    }
+
+    /* change background color */
+   
+}
